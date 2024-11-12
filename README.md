@@ -435,7 +435,7 @@ NARZUT DO PODSUMY
 { "commandType": 24, "commandInput": { "payment_type": 3, "value": 15.0, "currency_converter": 0.2235, "currency": "EUR", "is_from_registration_currency_conversion": true, "is_informative_conversion": false, "name": "paymentNameEUR", "payment_without_terminal": true } }
 ```
 ```
-{ "commandType": 24, "commandInput": { "payment_type": 3, "value": 80.0, "currency_converter": 4.50, "currency": "PLN", "is_from_registration_currency_conversion": true, "is_informative_conversion": false, "name": "paymentNamePLN", "payment_without_terminal": true } }
+{ "commandType": 24, "commandInput": { "payment_type": 1, "value": 80.0, "payment_without_terminal": true } }
 ```
 ```
 { "commandInput": { "canceled": false }, "commandType": 26, "print": true, "returnPDF": false, "currency_rest":"EUR" }

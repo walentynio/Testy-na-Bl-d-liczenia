@@ -432,10 +432,10 @@ NARZUT DO PODSUMY
 { "commandInput": { "item": { "advanceRemain": 0.0, "canceled": false, "count": 1.0, "name": "Towar-A", "price": 100.0, "ptu": "A", "unit": "szt." }, "type": 1 }, "commandType": 22 }
 ```
 ```
-{ "commandType": 24, "commandInput": { "payment_type": 3, "value": 15.0, "currency_converter": 0.2235, "currency": "EUR", "is_from_registration_currency_conversion": true, "is_informative_conversion": false, "name": "paymentNameEUR", "payment_without_terminal": true } }
+{ "commandType": 24, "commandInput": {"currency_rest":"EUR", "payment_type": 3, "value": 15.0, "currency_converter": 0.2235, "currency": "EUR", "is_from_registration_currency_conversion": true, "is_informative_conversion": false, "name": "paymentNameEUR", "payment_without_terminal": true } }
 ```
 ```
-{ "commandType": 24, "commandInput": { "payment_type": 3, "value": 80.0, "currency_converter": 4.50, "currency": "PLN", "is_from_registration_currency_conversion": true, "is_informative_conversion": false, "name": "paymentNamePLN", "payment_without_terminal": true } }
+{ "commandType": 24, "commandInput": {"currency_rest":"EUR", "payment_type": 3, "value": 80.0, "currency_converter": 4.50, "currency": "PLN", "is_from_registration_currency_conversion": true, "is_informative_conversion": false, "name": "paymentNamePLN", "payment_without_terminal": true } }
 ```
 ```
 { "commandInput": { "canceled": false }, "commandType": 26, "print": true, "returnPDF": false }
@@ -462,7 +462,7 @@ NARZUT DO PODSUMY
 { "commandType": 16 }
 ```
 ```
-{ "commandInput": { "item": { "advanceRemain": 0.0, "canceled": false, "count": 1.0, "name": "Towar-A", "price": 100.0, "ptu": "A", "unit": "szt." }, "type": 1 }, "commandType": 22 }
+{ "commandInput": { "item": { "advanceRemain": 0.0, "canceled": false "count": 1.0, "name": "Towar-A", "price": 100.0, "ptu": "A", "unit": "szt." }, "type": 1 }, "commandType": 22 }
 ```
 ```
 { "commandInput": { "payment_type": 2, "value": 50.0, "payment_without_terminal": true }, "commandType": 24 }

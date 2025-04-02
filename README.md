@@ -474,34 +474,48 @@ NARZUT DO PODSUMY
 { "commandInput": { "canceled": false }, "commandType": 26, "print": true, "returnPDF": false }
 ```
 ++++++++++++++++++++++++++ZNAKI KASY WIRTUALNEJ
-
-              { "commandType": 16 },
-    
-                { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "Polskie: ąćęłńóśźż", "price": 1, "ptu": "A", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
-     
-                { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "Symbole: €£$%&@#", "price": 1, "ptu": "B", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
-        
-                { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "Cyrylica: Русский", "price": 1, "ptu": "C", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
-         
-                { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "ASCII: !\"#$%&'()*+", "price": 1, "ptu": "D", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
-      
-                { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "Rzadkie: ©®™§¶†‡", "price": 1, "ptu": "E", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
-  
-                { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "Emoji: 😀🙂👍💰", "price": 1, "ptu": "F", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
-    
-                { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "Matematyka: ∑∏√∫≠≈≤≥", "price": 1, "ptu": "G", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
-          
-                { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "Greckie: αβγδεζηθι", "price": 1, "ptu": "A", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
-    
-                { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "Mix: Latin+Кириллица", "price": 1, "ptu": "B", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
-
-                { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "HTML: <div>test</div>", "price": 1, "ptu": "C", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
-    
-                { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "URL: example.com?id=123", "price": 1, "ptu": "D", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
-    
-                { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "Cudzysłowy: \"tekst\" 'tekst'", "price": 1, "ptu": "E", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
-
-                { "commandType": 24, "commandInput": { "name": "Płatność", "payment_type": 1, "value": 12, "payment_without_terminal": True } },
-
-                { "commandType": 26, "commandInput": { "canceled": False }, "print": True, "returnPDF": False, "returnQR": True }
-
+```
+{ "commandType": 16 },
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "Polskie: ąćęłńóśźż", "price": 1, "ptu": "A", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },`
+```
+```    
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "Symbole: €£$%&@#", "price": 1, "ptu": "B", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
+```
+```        
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "Cyrylica: Русский", "price": 1, "ptu": "C", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
+```
+```         
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "ASCII: !\"#$%&'()*+", "price": 1, "ptu": "D", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
+```
+```     
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "Rzadkie: ©®™§¶†‡", "price": 1, "ptu": "E", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
+```
+```  
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "Emoji: 😀🙂👍💰", "price": 1, "ptu": "F", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
+```
+``` 
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "Matematyka: ∑∏√∫≠≈≤≥", "price": 1, "ptu": "G", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "Greckie: αβγδεζηθι", "price": 1, "ptu": "A", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
+```
+``` 
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "Mix: Latin+Кириллица", "price": 1, "ptu": "B", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "HTML: <div>test</div>", "price": 1, "ptu": "C", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
+```
+``` 
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "URL: example.com?id=123", "price": 1, "ptu": "D", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
+```
+``` 
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": False, "count": 1, "name": "Cudzysłowy: \"tekst\" 'tekst'", "price": 1, "ptu": "E", "unit": "" }, "type": 1 }, "print": True, "returnModel": False, "returnPDF": False },
+```
+```
+{ "commandType": 24, "commandInput": { "name": "Płatność", "payment_type": 1, "value": 12, "payment_without_terminal": True } },
+```
+```
+{ "commandType": 26, "commandInput": { "canceled": False }, "print": True, "returnPDF": False, "returnQR": True }
+```
